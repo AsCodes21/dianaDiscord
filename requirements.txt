@@ -1,0 +1,5 @@
+flask
+discord
+requests
+asyncio
+googletrans==4.0.0-rc1
