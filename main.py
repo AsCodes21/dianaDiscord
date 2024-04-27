@@ -37,7 +37,7 @@ async def get_joke():
 @client.command(pass_context=True)
 @client.event
 async def on_member_join(member: discord.Member):
-  channel = client.get_channel(1229530815336288296)
+  channel = client.get_channel(1233769569647329341)
   embed = discord.Embed(title=f"Welcome {member}",
                         description="Hope you will enjoy here.",
                         color=0x1ddb82)
